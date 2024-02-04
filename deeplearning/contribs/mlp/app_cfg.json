@@ -1,0 +1,20 @@
+{
+    "params": {
+        "lr": 0.1,
+        "model_name": "unet_v2", 
+    },
+    "models": {
+        "unet_v1": {
+            "cls_name": "gauss_mlp",
+            "cls_cfg" : {
+                "b": 20,
+            },
+        },
+        "unet_v2": {
+            "cls_name": "gauss_mlp",
+            "cls_cfg" : {
+                "b": 10,
+            },
+        },
+    },
+}
